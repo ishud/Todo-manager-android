@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Todo Manager</string>
+    <string name="drawer">Drawer</string>
+    <string name="todo">ToDo</string>
+    <string name="notes">Notes</string>
+    <string name="reminder">Reminder</string>
+    <string name="setting">Setting</string>
+
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="title">Title</string>
+    <string name="no_items_found">No Items Found</string>
+    <string name="create_new_task">Create New Task</string>
+    <string name="mark_as_complete">Mark As Complete</string>
+    <string name="create_note">Write New Note</string>
+    <string name="write_title_here">Write title here</string>
+    <string name="write_here">Write here</string>
+    <string name="share_note">Share Note</string>
+    <string name="copy_note">Copy Note</string>
+    <string name="save">Save</string>
+    <string name="create_remainder">Create Remainder</string>
+
+    <string name="create">Create</string>
+    <string name="repeat">Repeat</string>
+    <string name="weekly">Weekly</string>
+    <string name="update_task">Update Task</string>
+    <string name="tags">Tags</string>
+    <string name="todo_title_list">My Todo List</string>
+    <string name="new_task">New Task</string>
+    <string name="whats_are_you_planning">What are you planning?</string>
+    <string name="add_note">Add Note</string>
+    <string name="select_tag">Select Tag</string>
+    <string name="tag_new">New Tag</string>
+    <string name="what_is_tag_name">What is tag name?</string>
+    <string name="pick_tag_color">Pick tag color</string>
+    <string name="this_color_visible_your_task_list">This color visible your task list.</string>
+    <string name="done">Done</string>
+    <string name="remove_message_tag">Confirm Remove %s</string>
+    <string name="wait">Please Wait...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="type_something">Type Something...</string>
+    <string name="plans">My Plans</string>
+    <string name="update">Update</string>
+    <string name="view_task">View Task</string>
+
+
+    <string-array name="week_days">
+        <item>Monday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="week_days_entry">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="notification_priority">
+        <item>Default</item>
+        <item>High</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="notification_priority_entry">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="transition_name_title">note_title</string>
+    <string name="transition_name_description">note_description</string>
+    <string name="about_developer">About Developer</string>
+    <string name="help">Help</string>
+    <string name="beetalab">BeetaLab</string>
+    <string name="Edit">Edit</string>
+    <string name="buy_premium">Buy Premium</string>
+    <string name="no_ads">No Ads</string>
+    <string name="unlimited_tags">Unlimited Tags</string>
+    <string name="edit_todo">Edit Task</string>
+
+    <string name="ad_mob_id" translatable="false" formatted="false">ca-app-pub-7465387162062313/6615840934</string>
+
+</resources>

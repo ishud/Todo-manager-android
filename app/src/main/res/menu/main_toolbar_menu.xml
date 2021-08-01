@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_todo"
+        android:icon="@drawable/icon_list"
+        android:title="@string/todo"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/menu_reminder"
+        android:icon="@drawable/icon_tag_new"
+        android:title="@string/tags"
+        app:showAsAction="always"
+        />
+
+
+    <item android:id="@+id/menu_notes"
+        android:icon="@drawable/icon_note"
+        android:title="@string/notes"
+        app:showAsAction="always"
+        />
+
+
+    <item android:id="@+id/menu_settings"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/setting"
+        app:showAsAction="always"
+        />
+
+</menu>

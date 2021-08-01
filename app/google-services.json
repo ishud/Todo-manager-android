@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "520957760228",
+    "project_id": "todo-manager-d4c01",
+    "storage_bucket": "todo-manager-d4c01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520957760228:android:487b3e65e302ca537592f1",
+        "android_client_info": {
+          "package_name": "com.beetalab.stickynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520957760228-iqturf498jehuns66reqts06h2u3u941.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beetalab.stickynote",
+            "certificate_hash": "0df35c7d7430e0a6a392c26ad8817aea9da165e0"
+          }
+        },
+        {
+          "client_id": "520957760228-dpm1mp5mdjkqeaf0g6l72dfh85ndktp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBesCqIdCqX4ot3t209IzEeHJHfI04rMP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520957760228-dpm1mp5mdjkqeaf0g6l72dfh85ndktp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

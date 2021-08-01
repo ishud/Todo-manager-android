@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme_whiteStatusbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/bottom_sheet_sub_title_color</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme_splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/bottom_sheet_sub_title_color</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

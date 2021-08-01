@@ -1,0 +1,94 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <Preference android:title="Upgrade premium"
+        android:key="pro_key"
+        app:iconSpaceReserved="false"
+        app:isPreferenceVisible="true"
+        />
+
+
+    <PreferenceCategory android:title="Notifications"
+        app:iconSpaceReserved="false"
+        >
+
+        <SwitchPreferenceCompat android:title="Show notification"
+            android:key="notification_bubble_key"
+            app:iconSpaceReserved="false"
+            />
+
+        <SwitchPreferenceCompat android:title="Use vibration and sound"
+            android:key="notification_sound"
+            app:iconSpaceReserved="false"
+            />
+
+        <ListPreference android:title="Notification priority"
+            android:key="notification_priority"
+            android:entries="@array/notification_priority"
+            android:entryValues="@array/notification_priority_entry"
+            android:summary="High"
+            android:negativeButtonText="Cancel"
+            android:defaultValue="1"
+            app:iconSpaceReserved="false"
+
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="App Settings"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat android:title="Use 24 hour time"
+            android:key="time_use_24"
+            android:summary="Time show 24 hour system"
+            app:iconSpaceReserved="false"
+            />
+
+        <ListPreference android:title="First day of week"
+            android:key="week_start_date_key"
+            android:entries="@array/week_days"
+            android:entryValues="@array/week_days_entry"
+            android:summary="Monday"
+            android:negativeButtonText="Cancel"
+            android:defaultValue="1"
+            app:iconSpaceReserved="false"
+            />
+
+        <SwitchPreferenceCompat android:title="Enable app lock"
+            android:key="app_lock_key"
+            android:summary="Secure your plans"
+            app:iconSpaceReserved="false"
+            />
+
+        <SwitchPreferenceCompat android:title="Auto delete data"
+            android:key="auto_delete"
+            app:iconSpaceReserved="false"
+            />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Others"
+        app:iconSpaceReserved="false">
+
+        <Preference android:title="Help"
+            android:key="help_key"
+            app:iconSpaceReserved="false"
+            />
+
+        <Preference android:title="About developer"
+            android:key="about_key"
+            app:iconSpaceReserved="false"
+            />
+
+        <Preference android:title="App version"
+            android:key="verion_key"
+            app:iconSpaceReserved="false"
+            />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

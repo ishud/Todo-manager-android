@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_sheet_background_color">#17171a</color>
+    <color name="bottom_sheet_title_color">#fff</color>
+    <color name="bottom_sheet_sub_title_color">#B8B8B8</color>
+    <color name="white">#fff</color>
+    <color name="color_text_color">#fcfcfc</color>
+
+    <color name="colorPrimary">#649dfe</color>
+    <color name="colorPrimaryDark">#4562fe</color>
+    <color name="colorAccent">#fd3a70</color>
+
+    <color name="black_shade_1">#1f1f1f</color>
+    <color name="color_black_shade2">#222228</color>
+
+    <color name="activity_background">#e9ebf2</color>
+    <color name="white_alpha0_5">#80FFFFFF</color>
+
+    <color name="color_text_color_shade">#32FFFFFF</color>
+    <color name="input_background">#4DE3E3E3</color>
+
+    <color name="light_gray">#D1D1D1</color>
+
+    <color name="seperetor_color">#99DFDFDF</color>
+
+    <color name="yellow">#FDC600</color>
+    <color name="green">#01CD0A</color>
+    <color name="red">#D80000</color>
+</resources>

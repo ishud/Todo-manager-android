@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/root_news_ad_unified"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_background"
+    android:padding="10dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/parent_news_ad_unified"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/white_round_conor_background"
+            android:paddingBottom="5dp"
+            >
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.8" />
+
+            <ImageView
+                android:id="@+id/iv_pic_news_ad_unified"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintDimensionRatio="H,16:9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/placeholder"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_headline_news_ad_unified"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.2"
+                android:maxLines="2"
+                android:layout_marginBottom="6dp"
+                android:textColor="@color/black_shade_1"
+                android:textSize="18sp"
+                app:layout_goneMarginBottom="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/iv_icon_news_ad_unified"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/iv_pic_news_ad_unified"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:text="TextView" />
+
+            <ImageView
+                android:id="@+id/iv_icon_news_ad_unified"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:padding="2dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tv_body_news_ad_unified"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@id/iv_pic_news_ad_unified"
+                app:layout_constraintTop_toBottomOf="@+id/tv_headline_news_ad_unified"
+                />
+
+            <TextView
+                android:id="@+id/tv_body_news_ad_unified"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                app:layout_goneMarginStart="14dp"
+                app:layout_goneMarginLeft="14dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/light_gray"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_icon_news_ad_unified"
+                app:layout_constraintEnd_toStartOf="@+id/guideline16"
+                app:layout_constraintStart_toEndOf="@+id/iv_icon_news_ad_unified"
+                app:layout_constraintTop_toTopOf="@+id/iv_icon_news_ad_unified"
+                tools:text="TextView" />
+
+            <Button
+                android:id="@+id/btn_news_ad_unified"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/button_background_primary_color"
+                tools:text="Button"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="5sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_body_news_ad_unified"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline16"
+                app:layout_constraintTop_toTopOf="@+id/tv_body_news_ad_unified" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.gms.ads.nativead.NativeAdView>

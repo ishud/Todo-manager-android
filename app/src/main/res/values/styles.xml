@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/bottom_sheet_sub_title_color</item>
+        <item name="android:windowActivityTransitions">true</item>
+
+    </style>
+
+
+    <style name="AppTheme_whiteStatusbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/bottom_sheet_sub_title_color</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppTheme_full_screen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/bottom_sheet_sub_title_color</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowActivityTransitions">true</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme_splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/bottom_sheet_sub_title_color</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+    </style>
+
+
+<style name="Edit_text_style" parent="Widget.AppCompat.EditText">
+    <item name="colorAccent">#99FCFCFC</item>
+    <item name="android:textColor">@color/color_text_color</item>
+</style>
+
+    <style name="spinner_style" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

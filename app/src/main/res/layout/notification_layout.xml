@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/notification_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/image_work"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/notification_image"
+        app:layout_constraintTop_toTopOf="@id/notification_image"
+        tools:text="this is a title"
+        android:layout_toEndOf="@id/notification_image"
+        android:layout_alignTop="@id/notification_image"
+        />
+
+    <TextView
+        android:id="@+id/notification_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/product_sans_regular"
+        android:textColor="@color/light_gray"
+        android:textSize="12sp"
+        android:layout_toEndOf="@id/notification_image"
+        android:layout_below="@id/notification_title"
+        app:layout_constraintStart_toEndOf="@id/notification_image"
+        app:layout_constraintTop_toBottomOf="@id/notification_title"
+        tools:text="this is text description for notification test" />
+
+
+</RelativeLayout>

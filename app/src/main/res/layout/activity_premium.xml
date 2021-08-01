@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PremiumActivity"
+    android:background="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_top_conor_background"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/guid_line_verticle_end"
+                app:layout_constraintBottom_toTopOf="@id/guid_line_top"
+                android:src="@drawable/icon_close"
+                app:tint="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:id="@+id/premimium_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buy_premium"
+                android:textSize="20sp"
+                android:textColor="@color/black_shade_1"
+                android:fontFamily="@font/product_sans_bold"
+                app:layout_constraintStart_toStartOf="@id/guid_line_verticle_start"
+                app:layout_constraintEnd_toEndOf="@id/guid_line_verticle_end"
+                app:layout_constraintTop_toBottomOf="@id/guid_line_top"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/premium_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintStart_toStartOf="@id/guid_line_verticle_start"
+                app:layout_constraintEnd_toEndOf="@id/guid_line_verticle_end"
+                app:layout_constraintTop_toBottomOf="@id/premimium_title"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/no_ads_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/guid_line_verticle_start"
+                app:layout_constraintTop_toBottomOf="@id/premium_image"
+                android:textColor="@color/light_gray"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                app:drawableStartCompat="@drawable/icon_no_ads"
+                app:drawableTint="@android:color/darker_gray"
+                android:text="@string/no_ads"
+                />
+            <TextView
+                android:id="@+id/tags_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/guid_line_verticle_start"
+                app:layout_constraintTop_toBottomOf="@id/no_ads_txt"
+                android:textColor="@color/light_gray"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                app:drawableStartCompat="@drawable/tag_icon_48"
+                app:drawableTint="@android:color/darker_gray"
+                android:text="@string/unlimited_tags"
+                />
+
+
+            <Button
+                android:id="@+id/upgrade_premium_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/guid_line_verticle_start"
+                app:layout_constraintEnd_toEndOf="@id/guid_line_verticle_end"
+                app:layout_constraintTop_toBottomOf="@id/tags_txt"
+                android:layout_marginTop="25dp"
+                android:text="Upgrade"
+                android:textAllCaps="false"
+                android:fontFamily="@font/product_sans_bold"
+                android:textSize="15sp"
+                android:background="@drawable/button_background_primary_color"
+                />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guid_line_verticle_start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintGuide_percent="0.1"
+                android:orientation="vertical"
+                />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guid_line_verticle_end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintGuide_percent="0.9"
+                android:orientation="vertical"
+                />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guid_line_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintGuide_percent="0.1"
+                android:orientation="horizontal"
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
